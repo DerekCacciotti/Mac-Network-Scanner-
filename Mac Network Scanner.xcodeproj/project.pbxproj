@@ -12,6 +12,7 @@
 		E20600771B35CC9D004F020D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20600751B35CC9D004F020D /* MainMenu.xib */; };
 		E20600831B35CC9D004F020D /* Mac_Network_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20600821B35CC9D004F020D /* Mac_Network_ScannerTests.swift */; };
 		E206008D1B35CD42004F020D /* ServiceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206008C1B35CD42004F020D /* ServiceScanner.swift */; };
+		E206008F1B35D101004F020D /* ClientFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206008E1B35D101004F020D /* ClientFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		E20600811B35CC9D004F020D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E20600821B35CC9D004F020D /* Mac_Network_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Network_ScannerTests.swift; sourceTree = "<group>"; };
 		E206008C1B35CD42004F020D /* ServiceScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceScanner.swift; sourceTree = "<group>"; };
+		E206008E1B35D101004F020D /* ClientFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				E20600731B35CC9D004F020D /* Images.xcassets */,
 				E20600751B35CC9D004F020D /* MainMenu.xib */,
 				E206008C1B35CD42004F020D /* ServiceScanner.swift */,
+				E206008E1B35D101004F020D /* ClientFinder.swift */,
 				E206006F1B35CC9D004F020D /* Supporting Files */,
 			);
 			path = "Mac Network Scanner";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E206008F1B35D101004F020D /* ClientFinder.swift in Sources */,
 				E206008D1B35CD42004F020D /* ServiceScanner.swift in Sources */,
 				E20600721B35CC9D004F020D /* AppDelegate.swift in Sources */,
 			);
